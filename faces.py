@@ -48,3 +48,15 @@ def six():
 | o   o |
  -------'''
     return six
+
+def check(check):
+    if not check.isdigit():
+        if check in 'Yy':
+            return True
+        elif check in 'Nn':
+            return False
+        else:
+            return True
+    else:
+        return True
+    
