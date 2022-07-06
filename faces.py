@@ -31,7 +31,7 @@ def four():
 |       |
 | o   o |
  -------'''
-    return four
+    return four 
 
 def five():
     five = ''' _______
